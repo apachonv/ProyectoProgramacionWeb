@@ -1,5 +1,5 @@
 <div class="container">
-    <h1 style="font-family: 'Times New Roman', serif">{{ $categoria }}</h1>
+    <h1 id="{{ $id }}-titulo" style="font-family: 'Times New Roman', serif">{{ $categoria }}</h1>
 </div>
 <div id="{{ $id }}" class="carousel slide" data-bs-interval="false">
     <br>

@@ -10,45 +10,51 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#coloracionCabello">Coloración
+                                <a class="dropdown-item"
+                                    href="{{ route('inicio') }}#coloracionCabello-titulo">Coloración
                                     cabello</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#corteCabello">Corte cabello</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#diseñoCejas">Diseño cejas</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#extensionesCabello">Extensiones
+                                <a class="dropdown-item" href="{{ route('inicio') }}#corteCabello-titulo">Corte
                                     cabello</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#extensionesPestañas">Extensiones
+                                <a class="dropdown-item" href="{{ route('inicio') }}#diseñoCejas-titulo">Diseño
+                                    cejas</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="{{ route('inicio') }}#extensionesCabello-titulo">Extensiones
+                                    cabello</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="{{ route('inicio') }}#extensionesPestañas-titulo">Extensiones
                                     pestañas</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#manicura">Manicura</a>
+                                <a class="dropdown-item" href="{{ route('inicio') }}#manicura-titulo">Manicura</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#maquillaje">Maquillaje</a>
+                                <a class="dropdown-item" href="{{ route('inicio') }}#maquillaje-titulo">Maquillaje</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#pedicura">Pedicura</a>
+                                <a class="dropdown-item" href="{{ route('inicio') }}#pedicura-titulo">Pedicura</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#peinados">Peinados</a>
+                                <a class="dropdown-item" href="{{ route('inicio') }}#peinados-titulo">Peinados</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#tinteCejasPestañas">Tinte
+                                <a class="dropdown-item" href="{{ route('inicio') }}#tinteCejasPestañas-titulo">Tinte
                                     cejas/pestañas</a>
                             </li>
                             <li>
                                 <a class="dropdown-item"
-                                    href="{{ route('inicio') }}#tratamientosCapilaresId">Tratamientos capilares</a>
+                                    href="{{ route('inicio') }}#tratamientosCapilares-titulo">Tratamientos
+                                    capilares</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('inicio') }}#uñasAcrilicasGel">Uñas
+                                <a class="dropdown-item" href="{{ route('inicio') }}#uñasAcrilicasGel-titulo">Uñas
                                     acrilicas/gel</a>
                             </li>
                         </ul>

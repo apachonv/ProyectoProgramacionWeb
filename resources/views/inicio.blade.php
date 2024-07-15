@@ -59,5 +59,4 @@
             @slot('id', 'uñasAcrilicasGel')
         @endcomponent
     @endsection
-
 </div>
