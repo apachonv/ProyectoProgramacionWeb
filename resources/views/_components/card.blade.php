@@ -7,7 +7,7 @@
             ">
         <div class="row">
             <div class="col-md-5">
-                <img src="/logo.png" class="img-fluid h-100 rounded-start" alt="..." />
+                <img src="{{ asset('assets/logo.png') }}" class="img-fluid h-100 rounded-start" alt="..." />
             </div>
             <div class="col-md-7">
                 <div class="card-body">
@@ -23,7 +23,8 @@
                         border-width: 2.5px;
                         border-radius: 30px;
                         font-weight: bold;
-                        ">
+                        "
+                        onclick="window.location.href='{{ route('reservarUsuario') }}'">
                         Reserva
                     </button>
                 </div>

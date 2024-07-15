@@ -14,3 +14,5 @@ Route::view('/iniciarSesion','iniciarSesion')->name('iniciarSesion');
 Route::view('/registroEsteticista','registroEsteticista')->name('registroEsteticista');
 Route::view('/registroUsuario','registroUsuario')->name('registroUsuario');
 
+Route::view('/reservasEsteticista','reservasEsteticista')->name('reservasEsteticista');
+Route::view('/reservarUsuario','reservarUsuario')->name('reservarUsuario');

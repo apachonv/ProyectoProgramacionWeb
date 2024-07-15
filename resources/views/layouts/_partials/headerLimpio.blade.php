@@ -12,7 +12,7 @@
                 ">GORGEOUS</a>
                     </li>
                     <li class="nav-item me-2">
-                        <img src="/logo.png" alt="Logo" width="40" height="40"
+                        <img src="{{ asset('assets/logo.png') }}" alt="Logo" width="40" height="40"
                             class="d-inline-block align-text-top" />
                     </li>
                 </ul>

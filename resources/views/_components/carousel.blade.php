@@ -1,7 +1,8 @@
-<div class="container" id="{{ $id }}">
+<div class="container">
     <h1 style="font-family: 'Times New Roman', serif">{{ $categoria }}</h1>
 </div>
-<div id="{{ $id }}" class="carousel slide" data-ride="carousel">
+<div id="{{ $id }}" class="carousel slide" data-bs-interval="false">
+    <br>
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="row">
@@ -56,6 +57,5 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-    <br>
     <br>
 </div>
