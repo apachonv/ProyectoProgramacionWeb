@@ -1,5 +1,5 @@
 [LISTO] Creación de proyecto en Laravel.
-[] Implementación de migraciones.
+[LISTO] Implementación de migraciones.
 [] Implementación de seeders.
 [LISTO] Implementación de modelos.
 [] Implementación de controladores.
